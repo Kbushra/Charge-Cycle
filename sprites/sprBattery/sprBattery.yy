@@ -26,6 +26,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"287a4c00-6ce2-4e4f-9497-aeadf75e40b7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"287a4c00-6ce2-4e4f-9497-aeadf75e40b7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"82a46f86-6957-4513-b275-871c5954767c","blendMode":0,"displayName":"default","isLocked":false,"name":"82a46f86-6957-4513-b275-871c5954767c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5c2db256-a84d-4d22-8679-6edae0df5f3a","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"5c2db256-a84d-4d22-8679-6edae0df5f3a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprBattery",
   "nineSlice":null,
@@ -65,7 +66,7 @@
     },
     "name":"sprBattery",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":16.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
