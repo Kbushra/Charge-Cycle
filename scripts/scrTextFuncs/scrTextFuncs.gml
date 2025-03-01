@@ -6,4 +6,5 @@ function resetCPU()
 	page = 0;
 	active = true;
 	char_counter = 0;
+	text = array_create(1, "");
 }

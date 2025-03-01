@@ -1,0 +1,1 @@
+global.lossSpd = 2;
