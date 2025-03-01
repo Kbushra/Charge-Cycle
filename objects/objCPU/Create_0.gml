@@ -43,8 +43,8 @@ switch lines
 		text[1] = "...DO it anyway.";
 		break;
 	case 6:
-		text[0] = "GET OUT! IM GOING TO KILL YOU!";
-		text[1] = "WHAT? WHATS HAPPENING?";
+		text[0] = "GET OUT! ILL KILL YOU!";
+		text[1] = "WHAT? WHATS HAPPENING? I DONT KNOW HHAHAHAHAHAH!";
 		break;
 	case 7:
 		text[0] = "WARNING: OVERHEATING, OVERWORKED.";
@@ -62,6 +62,9 @@ switch lines
 		text[0] = "We're already here?";
 		text[1] = "Well, I guess this is the part where I kill you.";
 		text[2] = "I'm sorry, but you're taking a toll on my cooling system.";
+		break;
+	case 11:
+		text[0] = "Urghh, I feel A BIT HOTTT..SF10";
 		break;
 	default:
 		text[0] = "...";

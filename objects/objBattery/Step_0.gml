@@ -58,6 +58,8 @@ else
 		instance_create_layer(x, y, "Instances", objCPU, { lines:-1 });
 	}
 	
+	if acc == 0 { audio_play_sound(sndZap, 10, false); }
+	
 	image_angle += 5;
 	acc += 0.2;
 	y += acc;

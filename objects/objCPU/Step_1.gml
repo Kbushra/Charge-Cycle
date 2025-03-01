@@ -34,6 +34,7 @@ if global.completed && !endText
 			break;
 		case 10:
 			peaklaser.pause = 99999;
+			audio_stop_all();
 			text[0] = "What.";
 			text[1] = "Did you just fix everything.";
 			text[2] = "With that single circut.";
@@ -41,6 +42,9 @@ if global.completed && !endText
 			text[4] = "Well, guess I'm all fixed now.";
 			text[5] = "That means that you're useless now.";
 			text[6] = "Goodbye!";
+			break;
+		case 11:
+			text[0] = "HOT HOT HOT HOT HOT HOT HOT HOT HOT HOT.";
 			break;
 	}
 }
@@ -69,7 +73,7 @@ if page >= array_length(text)
 {
 	active = false;
 	if lines == 0 { global.completed = true; }
-	if lines == 10 && !instance_exists(objEnd)
+	if lines == 10 && page >= 7 && !instance_exists(objEnd)
 	{
 		objBattery.death = true;
 		instance_create_layer(x, y, "Instances", objEnd);

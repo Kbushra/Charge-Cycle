@@ -1,9 +1,11 @@
 if alpha > 5
 {
+	if otherAlpha == 7 { audio_play_sound(sndError, 10, false); }
+	
 	draw_sprite_ext(sprError, 0, 341.5, 192, 1, 1, 0, c_white, otherAlpha);
 	otherAlpha -= 0.04;
 	
-	if otherAlpha <= 1 && room != rmStart { room_goto(rmCPU); instance_activate_object(objBattery); }
+	if otherAlpha <= 1 && room != rmStart { room_goto(rmAround2); instance_activate_object(objBattery); }
 	if otherAlpha <= -1 { instance_destroy(); }
 	
 	exit;

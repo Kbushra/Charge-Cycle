@@ -8,3 +8,5 @@ laser.depth = depth + 1;
 
 if up { image_angle = minAngle; }
 else { image_angle = maxAngle; }
+
+if !audio_is_playing(sndWhir) { audio_play_sound(sndWhir, 10, true); }

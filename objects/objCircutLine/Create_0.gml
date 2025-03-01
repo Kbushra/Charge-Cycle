@@ -7,5 +7,3 @@ if joints == 4 { otherPossible = image_angle; }
 
 correctState = image_angle == reqAngle || image_angle == otherPossible;
 if correctState { global.correct++; }
-
-if global.corrupted { sprite_index = sprCircutLineRed; }

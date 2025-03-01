@@ -1,5 +1,7 @@
 if place_meeting(x, y, objBattery) && keyboard_check_pressed(ord("Z"))
 {	
+	audio_play_sound(sndClick, 10, false);
+	
 	image_angle += 90;
 	image_angle %= 360;
 	
@@ -20,3 +22,5 @@ if place_meeting(x, y, objBattery) && keyboard_check_pressed(ord("Z"))
 		correctState = false;
 	}
 }
+
+if global.corrupted { sprite_index = sprCircutLineRed; }
