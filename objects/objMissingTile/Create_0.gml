@@ -1,0 +1,1 @@
+if global.fixed[fixId] { global.fixes--; }

@@ -14,26 +14,27 @@ switch lines
 		break;
 	case 0:
 		text[0] = "Hello.";
-		text[1] = "I've hired you to fix my innards.";
+		text[1] = "I've hired you to repair my components.";
 		text[2] = "I keep crashing, so I hope you could fix that.";
 		text[3] = "...";
 		text[4] = "What are you waiting for? Get on with it.";
 		text[5] = "I have 5 billion processes awaiting, and the big guy isn't patient.";
 		break;
 	case 1:
-		text[0] = "Im sure you can do something as mundane as powering a circut.";
+		text[0] = "Im sure you can do something as mundane as powering a circuit.";
+		text[1] = "Just move with WASD or arrows. How do you not know this?";
 		break;
 	case 2:
-		text[0] = "For these circuts you need to swap some around.";
+		text[0] = "For these circuits you need to swap some around.";
 		text[1] = "Press Z when on one to swap it.";
 		text[2] = "I mean, you should know that since it was on the interview.";
 		text[3] = "But whatever.";
 		break;
 	case 3:
-		text[0] = "Well, this place doesnt't seem the nicest...";
+		text[0] = "Well, this place doesn't seem the nicest...";
 		break;
 	case 4:
-		text[0] = "How do you even get past this?";
+		text[0] = "How do you get past this?";
 		text[1] = "I can't even SEE the way around.";
 		break;
 	case 5:
@@ -64,7 +65,7 @@ switch lines
 		text[2] = "I'm sorry, but you're taking a toll on my cooling system.";
 		break;
 	case 11:
-		text[0] = "Urghh, I feel A BIT HOTTT..SF10";
+		text[0] = "Urghh, I feel A BIT HOTTT... SF10";
 		break;
 	default:
 		text[0] = "...";

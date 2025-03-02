@@ -46,7 +46,7 @@ if !death
 		image_index = percentLoss/120;
 	}
 
-	if place_meeting(x, y, objHazard) { image_speed = 1; death = true; }
+	if place_meeting(x, y, objHazard) { death = true; }
 
 	if image_index >= 5 { death = true; }
 }
@@ -58,7 +58,12 @@ else
 		instance_create_layer(x, y, "Instances", objCPU, { lines:-1 });
 	}
 	
-	if acc == 0 { audio_play_sound(sndZap, 10, false); }
+	if acc == 0
+	{
+		audio_play_sound(sndZap, 10, false);
+		image_speed = 1;
+		instance_create_layer(x, y, "Instances", objShot);
+	}
 	
 	image_angle += 5;
 	acc += 0.2;

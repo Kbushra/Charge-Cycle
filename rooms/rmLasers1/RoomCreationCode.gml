@@ -1,2 +1,2 @@
-global.lossSpd = 1.3;
+global.lossSpd = 0.85;
 global.reqCorrect = 2;

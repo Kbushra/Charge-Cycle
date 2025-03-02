@@ -9,7 +9,7 @@ if global.completed && !endText
 			text[0] = "Thank god...";
 			break;
 		case 2:
-			text[0] = "Great, only 9 billion left!";
+			text[0] = "Great, only 9 billion parts left!";
 			break;
 		case 3:
 			text[0] = "Out of here...";
@@ -33,15 +33,22 @@ if global.completed && !endText
 			text[0] = "Get out of here!";
 			break;
 		case 10:
+			layer_set_visible("Tiles_6", true);
 			peaklaser.pause = 99999;
 			audio_stop_all();
 			text[0] = "What.";
-			text[1] = "Did you just fix everything.";
-			text[2] = "With that single circut.";
+			text[1] = "Did you just repair everything.";
+			text[2] = "With that single circuit.";
 			text[3] = "...";
 			text[4] = "Well, guess I'm all fixed now.";
-			text[5] = "That means that you're useless now.";
-			text[6] = "Goodbye!";
+			text[5] = "That means that you're useless.";
+			if global.fixes >= 5 { text[6] = "Goodbye!"; }
+			else
+			{
+				text[6] = "Wait no, you missed a few tiles back there.";
+				text[7] = "You're horrible at this, you know that, right?";
+				text[8] = "Whatever, maybe the next guy will do better.";
+			}
 			break;
 		case 11:
 			text[0] = "HOT HOT HOT HOT HOT HOT HOT HOT HOT HOT.";
