@@ -8,3 +8,6 @@ global.d = keyboard_check(vk_down) || keyboard_check(ord("S"));
 if room != rmInit && room != rmMenu { global.spwnRoom = room; }
 
 global.musPos = audio_sound_get_track_position(soundId);
+
+if os_browser == browser_not_a_browser { audio_master_gain(0.7); }
+else { audio_master_gain(0.4); }

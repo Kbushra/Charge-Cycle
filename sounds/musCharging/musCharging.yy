@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":48.000023,
+  "duration":159.99667,
   "name":"musCharging",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"musCharging.wav",
   "type":0,
-  "volume":0.25,
+  "volume":1.0,
 }

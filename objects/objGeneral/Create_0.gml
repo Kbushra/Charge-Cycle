@@ -1,6 +1,6 @@
 randomize();
 
-soundId = audio_play_sound(musChargingB, 10, true);
+soundId = audio_play_sound(musCharging, 10, true);
 
 global.completed = false;
 global.reqCorrect = 0;

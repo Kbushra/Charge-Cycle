@@ -23,6 +23,7 @@ switch lines
 	case 1:
 		text[0] = "Im sure you can do something as mundane as powering a circuit.";
 		text[1] = "Just move with WASD or arrows. How do you not know this?";
+		text[2] = "(Btw if you could create some new tiling for me that would be nice)";
 		break;
 	case 2:
 		text[0] = "For these circuits you need to swap some around.";
@@ -52,8 +53,9 @@ switch lines
 		text[1] = "ELEMINATING LARGE STORAGE FILES.";
 		break;
 	case 8:
-		text[0] = "CLEAN UP PROCESS INITIATED.";
-		text[1] = "TARGET CORNERED.";
+		text[0] = "TARGET NEARING MAIN CORE.";
+		text[1] = "CLEAN UP PROCESS INITIATED.";
+		text[2] = "TARGET CORNERED.";
 		break;
 	case 9:
 		text[0] = "So many lasers...";
